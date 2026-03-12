@@ -1,0 +1,462 @@
+cuerpo{
+  background-image: url("fondo2.gif");
+}
+.home,
+.home * {
+  box-sizing: border-box;
+}
+.home {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  height: 1271px;
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: auto;
+}
+.cabecera {
+  background: #1ea635;
+  padding: 10px 34px 10px 34px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 100%;
+  height: 110px;
+  position: relative;
+}
+.frame-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.cgj {
+  color: #76124a;
+  text-align: left;
+  font-family: "Jersey 15", sans-serif;
+  -webkit-text-stroke: 5px #ffffff;
+  font-size: 150px;
+  font-weight: 400;
+  position: relative;
+}
+.fondohome{
+  width: 110%;
+  height: 120%;
+  background-image: url("fondohome.gif");
+  background-size: cover;
+  background-position: center;
+  clip-path: inset(50px 65px 50px 65px);
+  position: absolute;
+  margin-top: -50px;
+  margin-left: -90px;
+}
+.fondo2{
+  width: 100%;
+  height: 180%;
+  background-image: url("fondo2.gif");
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  clip-path: inset(0px 0px 200px 0px);
+  z-index: -1;
+}
+.botones-navegacion {
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.boton-info {
+  background: #76124a;
+  border-radius: 25px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 305px;
+  height: 100px;
+  position: relative;
+}
+.info {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Jersey 15", sans-serif;
+  font-size: 80px;
+  font-weight: 400;
+  position: relative;
+}
+.boton-lugar {
+  background: #76124a;
+  border-radius: 25px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 305px;
+  height: 100px;
+  position: relative;
+  font-family: "Jersey 15", sans-serif;
+}
+.lugar {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Jersey 15", sans-serif;
+  font-size: 80px;
+  font-weight: 400;
+  position: relative;
+}
+.boton-horario {
+  background: #76124a;
+  border-radius: 25px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 305px;
+  height: 100px;
+  position: relative;
+}
+.horario {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Jersey 15", sans-serif;
+  font-size: 80px;
+  font-weight: 400;
+  position: relative;
+}
+.boton-reglas {
+  background: #76124a;
+  border-radius: 25px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 305px;
+  height: 100px;
+  position: relative;
+}
+.reglas {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Jersey 15", sans-serif;
+  font-size: 80px;
+  font-weight: 400;
+  position: relative;
+}
+.cuerpo {
+  background: #2f5d2f;
+  flex-shrink: 0;
+  width: 100%;
+  height: 1045px;
+  position: relative;
+  overflow: hidden;
+}
+
+.cuerpolugar {
+  flex-shrink: 0;
+  width: 100%;
+  height: 1045px;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.cuerporeglas {
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.arte-central {
+  position: absolute;
+  inset: 0;
+}
+.logo-cesugamejam-1 {
+  width: 1000px;
+  height: 906px;
+  position: absolute;
+  left: 777px;
+  top: 40px;
+  object-fit: cover;
+  aspect-ratio: 1000/906;
+}
+.boton-reserva {
+  background: #76124a;
+  border-radius: 25px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 552px;
+  height: 125px;
+  position: absolute;
+  left: 1004px;
+  top: 800px;
+}
+.reserva-ya {
+  border-style: solid;
+  border-color: transparent;
+  border-width: 1px;
+  flex-shrink: 0;
+  width: 557px;
+  height: 120px;
+  position: absolute;
+  left: 20px;
+  top: 5px;
+}
+.reserva-ya2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Jersey 15", sans-serif;
+  font-size: 120px;
+  font-weight: 400;
+  position: absolute;
+  right: 4.13%;
+  left: 0%;
+  width: 95.87%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+}
+.cesu-game-jam-2026 {
+  color: #76124a;
+  text-align: left;
+  font-family: "Jersey 15", sans-serif;
+  font-size: 300px;
+  letter-spacing: -0.04em;
+  font-weight: 400;
+  position: absolute;
+  left: 261px;
+  top: 550px;
+  -webkit-text-stroke: 10px #ffffff;
+}
+.pie-de-pagina {
+  background: #348341;
+  padding: 10px 34px 10px 34px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 100%;
+  height: 120px;
+  position: relative;
+}
+.pie-de-pagina-lugar {
+  background: #348341;
+  padding: 10px 34px 10px 34px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 100%;
+  height: 116px;
+  position:relative;
+  overflow-y: hidden;
+}
+.cesuga-logo {
+  color: #000000;
+  text-align: left;
+  font-family: "Bree Serif", sans-serif;
+  font-size: 100px;
+  letter-spacing: 0undefined;
+  font-weight: 400;
+  position: relative;
+  width: 360px;
+  height: 144px;
+  -webkit-text-stroke: 10px rgba(255, 255, 255, 0);
+}
+.cesuga-logo-span {
+}
+.cesuga-logo-span2 {
+  letter-spacing: -0.06em;
+}
+.en-colaboraci-n-con-el-ayuntamiento-de-a-coru-a-y-abanca {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Jersey 15", sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  position: relative;
+  -webkit-text-stroke: 10px rgba(255, 255, 255, 0);
+}
+.texto {
+  color: #ffffff;
+  width: 900px;
+  text-align: left;
+  font-family: "Jersey 15", sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  position: relative;
+  left:1400px;
+  break-after: auto;
+}
+.texto-horario {
+  color: #ffffff;
+  width: 900px;
+  text-align: left;
+  font-family: "Jersey 15", sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  position: relative;
+  left:1400px;
+  break-after: auto;
+  text-align: center;
+}
+.texto-reglas {
+  color: #ffffff;
+  width: 1800px;
+  text-align: left;
+  font-family: "Jersey 15", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  position: relative;
+  break-after: auto;
+  white-space: pre-line;
+  text-align: center;
+  line-height: 1.8;
+  left: 15%;
+}
+.titulo {
+  color: #ffffff;
+  width: 900px;
+  text-align: left;
+  font-family: "Jersey 15", sans-serif;
+  font-size: 100px;
+  font-weight: 400;
+  position: relative;
+  left:1400px;
+  break-after: auto;
+  text-align: center;
+}
+.subtitulo {
+  color: #ffffff;
+  width: 900px;
+  text-align: left;
+  font-family: "Jersey 15", sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  position: relative;
+  left:1400px;
+  text-align: center;
+}
+.image-9 {
+  border-radius: 25px;
+  width: 1218px;
+  height: 812px;
+  position: absolute;
+  left: 57px;
+  top: 125px;
+  object-fit: cover;
+  aspect-ratio: 3/2;
+}
+.botones-rrss {
+  flex-shrink: 0;
+  width: 463px;
+  height: 116px;
+  position: relative;
+}
+.boton-compartir {
+  width: 102px;
+  height: 102px;
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  translate: 0 -50%;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.boton-facebook {
+  width: 15.12%;
+  height: 60.34%;
+  position: absolute;
+  right: 18.14%;
+  left: 66.74%;
+  bottom: 19.83%;
+  top: 19.83%;
+  overflow: visible;
+}
+.boton-x {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 16.2%;
+  height: 60.34%;
+  position: absolute;
+  right: 53.13%;
+  left: 30.67%;
+  bottom: 19.83%;
+  top: 19.83%;
+  overflow: visible;
+}
+.boton-discord {
+  width: 15.12%;
+  height: 60.34%;
+  position: absolute;
+  right: 35.21%;
+  left: 49.68%;
+  bottom: 19.83%;
+  top: 19.83%;
+  overflow: visible;
+}
+.boton-insta {
+  background: #202020;
+  padding: 10px;
+  width: 15.12%;
+  height: 60.34%;
+  position: absolute;
+  right: 0%;
+  left: 84.88%;
+  bottom: 19.83%;
+  top: 19.83%;
+}
+.social-icons {
+  width: 55px;
+  height: 55px;
+  position: absolute;
+  left: 7px;
+  top: 8px;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.jersey-15-regular {
+  font-family: "Jersey 15", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.bree-serif-regular {
+  font-family: "Bree Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
